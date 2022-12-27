@@ -1,0 +1,30 @@
+.chatsContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  gap: 10px;
+}
+.chatsContainer:hover {
+  background-color: #2f2d52;
+}
+.chatsContainer > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.chats {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+}
+
+.chats > span {
+  color: white;
+}

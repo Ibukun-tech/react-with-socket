@@ -1,0 +1,7 @@
+.message {
+  height: calc(100% - 140px);
+  /* height: calc(100%-130px); */
+  overflow: scroll;
+  background-color: #ddddf7;
+  padding: 10px;
+}
